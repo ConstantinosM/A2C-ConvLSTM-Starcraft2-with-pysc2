@@ -1,4 +1,7 @@
 # A2C-ConvLSTM-Starcraft2
+
+### This is an old repository and code is not working properly. Sequences of (s,a,r) should be batched properly with timestep dimension.
+
 A2C with ConvLSTM agent playing Starcraft 2 (DeepMind's FullyConv LSTM)
 
 Synchronous Advantage Actor Critic (synchronous variation of the [A3C](https://arxiv.org/abs/1602.01783)) with [Convolutional LSTM](https://arxiv.org/abs/1506.04214) playing Starcraft 2 using DeepMind's API [pysc2](https://github.com/deepmind/pysc2/).
